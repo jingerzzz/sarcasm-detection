@@ -1,0 +1,3 @@
+Dataset size:15000
+Testing accuracy 0.5464444444444444
+Testing F1 score: 0.5394791368806275

@@ -1,0 +1,23 @@
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		gnb_var_smoothing: 1e-09
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.7493676143013553
+		test_score: 0.6353220071118135
+		precision_score: 0.6708612975391499
+		recall_score: 0.5387984278495227
+		F1_score: 0.5976209752755808
+----------------------------------------------

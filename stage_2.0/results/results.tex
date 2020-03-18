@@ -1,0 +1,374 @@
+\documentclass[a4paper,10pt]{article}
+\usepackage{indentfirst}
+\setlength{\parindent}{2em}
+\usepackage{amssymb}
+\usepackage{pifont}
+\usepackage[version=4]{mhchem}
+\usepackage{siunitx}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{multirow}
+\usepackage{geometry}
+\usepackage{url}
+\usepackage{cite}
+\usepackage{float}
+\usepackage{enumerate}
+\usepackage[T1]{fontenc}
+\usepackage{array}
+\usepackage{CJK}
+\usepackage{mathptmx}
+\usepackage{mathrsfs}
+\usepackage{listings}
+\usepackage{hyperref}
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
+\geometry{left=2.0cm,right=2.0cm,top=2.5cm,bottom=2.5cm}
+% define the title
+
+
+\title{\Huge{\textbf{\textsc{Model Test Results}}}}
+\date{}
+
+
+\begin{document}
+\maketitle
+\section{LinearSVC}
+\par Feature extraction parameters:
+\begin{itemize}
+\item max features: 8000
+\item ngram rang:(1,3)
+\item stop words: None
+\item max df: 1.0
+\item min df: 1
+\item norm: l2
+\end{itemize}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+c&train accuracy&test accuracy\\
+\hline
+1.0&76.49&66.55\\
+\hline
+0.8&76.42&66.64\\
+\hline
+0.6&76.24&66.93\\
+\hline
+0.4&76.03&67.24\\
+\hline
+0.2&75.26&67.69\\
+\hline
+0.05&73.14&68.11\\
+\hline
+0.001&66.22&64.52\\
+\hline
+\end{tabular}
+\caption{tol=0.001, penalty=l2}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+c&train accuracy&test accuracy\\
+\hline
+1.0&76.49&66.53\\
+\hline
+0.8&76.42&66.62\\
+\hline
+0.6&76.24&66.94\\
+\hline
+0.4&76.03&67.24\\
+\hline
+0.2&75.26&67.69\\
+\hline
+\end{tabular}
+\caption{tol=0.004, penalty=l2}
+\end{table}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+c&train accuracy&test accuracy\\
+\hline
+1.0&76.50&66.54\\
+\hline
+0.8&76.42&66.64\\
+\hline
+0.6&76.24&66.94\\
+\hline
+0.4&76.03&67.24\\
+\hline
+0.2&75.26&67.70\\
+\hline
+\end{tabular}
+\caption{tol=0.007, penalty=l2}
+\end{table}
+
+
+\section{LogisticRegression}
+\par Feature extraction parameters:
+\begin{itemize}
+\item max features: 8000
+\item ngram rang:(1,3)
+\item stop words: None
+\item max df: 1.0
+\item min df: 1
+\item norm: l2
+\end{itemize}
+
+\begin{table}[!h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+c&train accuracy&test accuracy\\
+\hline
+1.0&74.58&68.03\\
+\hline
+0.6&73.69&68.34\\
+\hline
+0.2&71.26&67.59\\
+\hline
+
+\end{tabular}
+\caption{tol=0.0001, penalty=l2}
+\end{table}
+
+\begin{table}[!h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+c&train accuracy&test accuracy\\
+\hline
+1.0&74.58&68.03\\
+\hline
+0.6&73.69&68.34\\
+\hline
+0.2&71.38&67.59\\
+\hline
+
+\end{tabular}
+\caption{tol=0.0006, penalty=l2}
+\end{table}
+
+\begin{table}[!h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+c&train accuracy&test accuracy\\
+\hline
+1.0&71.50&66.29\\
+\hline
+0.6&70.41&65.80\\
+\hline
+0.2&68.46&64.91\\
+\hline
+
+\end{tabular}
+\caption{tol=0.0011, penalty=l2}
+\end{table}
+
+
+\begin{table}[!h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+c&train accuracy&test accuracy\\
+\hline
+1.0&67.40&65.09\\
+\hline
+0.6&65.19&63.78\\
+\hline
+0.2&60.61&60.31\\
+\hline
+
+\end{tabular}
+\caption{tol=0.0001, penalty=l1}
+\end{table}
+
+\begin{table}[!h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+c&train accuracy&test accuracy\\
+\hline
+1.0&67.40&65.09\\
+\hline
+0.6&65.19&63.78\\
+\hline
+0.2&60.62&60.30\\
+\hline
+
+\end{tabular}
+\caption{tol=0.0006, penalty=l1}
+\end{table}
+
+\begin{table}[!h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+c&train accuracy&test accuracy\\
+\hline
+1.0&67.41&65.09\\
+\hline
+0.6&65.20&63.79\\
+\hline
+0.2&60.61&60.31\\
+\hline
+
+\end{tabular}
+\caption{tol=0.0011, penalty=l1}
+\end{table}
+\newpage
+\section{GaussianNB}
+\par Feature extraction parameters:
+\begin{itemize}
+\item max features: 8000
+\item ngram rang:(1,3)
+\item stop words: None
+\item max df: 1.0
+\item min df: 1
+\item norm: l2
+\end{itemize}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+varsmoothing&train accuracy&test accuracy\\
+\hline
+1e-9&71.15&63.94\\
+\hline
+1e-8&71.28&63.94\\
+\hline
+1e-7&71.38&63.93\\
+\hline
+
+\end{tabular}
+
+\end{table}
+
+
+
+
+\section{RandomForestClassifier}
+\par Feature extraction parameters:
+\begin{itemize}
+\item max features: 15000
+\item ngram rang:(1,3)
+\item stop words: None
+\item max df: 1.0
+\item min df: 1
+\item norm: l1
+\end{itemize}
+\subsection{1}
+\par RandomForestClassfier parameters:
+\begin{itemize}
+\item oob score: True
+\item n estimators: 10
+\end{itemize}
+\par Results:
+\begin{itemize}
+\item train score: 96.72
+\item test score: 64.54
+\end{itemize}
+
+\subsection{2}
+\par RandomForestClassfier parameters:
+\begin{itemize}
+\item oob score: True
+\item n estimators: 30
+\item max depth:10
+\end{itemize}
+\par Results:
+\begin{itemize}
+\item train score: 98.18
+\item test score: 66.04
+\end{itemize}
+\end{document}
+%----------------------- BACKUP
+\section{Appendix}
+\subsection{C++ code}
+\lstset{language=c++}
+\begin{lstlisting}
+
+
+\end{lstlisting}a
+
+\begin{figure}[!h]
+\centering\includegraphics[width=4.5in]{pt.png}
+\caption{Silver Jewllery}
+\end{figure}
+
+\begin{equation*}
+\begin{aligned}
+f_{X_1}(x_1)&=\int_{-\infty}^{\infty} f_{X_1X_2}(x_1,x_2)dx_2\\
+&=\int_{-\infty}^{\infty}\dfrac{1}{2\pi\sigma_1\sigma_2\sqrt{1-\varrho^2}}e^{-\frac{1}{2(1-\rho^2)}[(\frac{x_1-\mu_1}{\sigma_1})^2-2\varrho(\frac{x_1-\mu_1}{\sigma_1})(\frac{x_2-\mu_2}{\sigma_2})+(\frac{x_2-\mu_2}{\sigma_2})^2]}dx_2\\
+\end{aligned}
+\end{equation*}
+\begin{table}
+\begin{tabular}{c|l c}
+Stem&Leaves&Counts\\
+\hline
+10&1&1\\
+
+10&&0\\
+
+22&5&1\\
+
+22&88&2\\
+
+23&02234&5\\
+
+23&558&3\\
+
+24&023&3\\
+Stem Units:1&&
+
+\end{tabular}
+\end{table}
+%-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

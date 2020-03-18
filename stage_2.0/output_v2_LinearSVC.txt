@@ -1,0 +1,800 @@
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 1.0
+		tol: 0.001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7649979235096462
+		test score: 0.6654625500931309
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.8
+		tol: 0.001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7642428361082796
+		test score: 0.6664220804876673
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.6
+		tol: 0.001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7624495035300336
+		test score: 0.6693571146356606
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.3999999999999999
+		tol: 0.001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7603352588062068
+		test score: 0.6724050347124231
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.19999999999999996
+		tol: 0.001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7526144901272322
+		test score: 0.6769204718631823
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 1.0
+		tol: 0.004
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7649979235096462
+		test score: 0.6653496641643619
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.8
+		tol: 0.004
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7642428361082796
+		test score: 0.6663656375232827
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.6
+		tol: 0.004
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7624117491599652
+		test score: 0.6694135576000452
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.3999999999999999
+		tol: 0.004
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7602786272511043
+		test score: 0.6724050347124231
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.19999999999999996
+		tol: 0.004
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7526144901272322
+		test score: 0.6769204718631823
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 1.0
+		tol: 0.007
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7650168006946804
+		test score: 0.6654061071287464
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.8
+		tol: 0.007
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7642239589232454
+		test score: 0.6664220804876673
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.6
+		tol: 0.007
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7624495035300336
+		test score: 0.6693571146356606
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.3999999999999999
+		tol: 0.007
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7603352588062068
+		test score: 0.6724050347124231
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.19999999999999996
+		tol: 0.007
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7526333673122664
+		test score: 0.6770333577919513
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 1.0
+		tol: 0.010000000000000002
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7648846603994413
+		test score: 0.6653496641643619
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.8
+		tol: 0.010000000000000002
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7642428361082796
+		test score: 0.6663091945588983
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.6
+		tol: 0.010000000000000002
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7624306263449995
+		test score: 0.6694135576000452
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.3999999999999999
+		tol: 0.010000000000000002
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7602786272511043
+		test score: 0.6724050347124231
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.19999999999999996
+		tol: 0.010000000000000002
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7526522444973006
+		test score: 0.6769769148275667
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 1.0
+		tol: 0.013000000000000001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7649224147695096
+		test score: 0.6654061071287464
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.8
+		tol: 0.013000000000000001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7642428361082796
+		test score: 0.6661963086301292
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.6
+		tol: 0.013000000000000001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7624306263449995
+		test score: 0.6694135576000452
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.3999999999999999
+		tol: 0.013000000000000001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7602597500660702
+		test score: 0.6724614776768076
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.19999999999999996
+		tol: 0.013000000000000001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7526333673122664
+		test score: 0.6769769148275667
+----------------------------------------------
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.4
+		tol: 0.001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7603352588062068
+		test score: 0.6724050347124231
+		precision score: 0.6917748917748918
+		recall score: 0.6280741156653565
+		F1 score: 0.6583872866391994
+----------------------------------------------
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: english
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.001
+		tol: 0.001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.6473741835617473
+		test score: 0.6306936840322854
+		precision score: 0.693733595800525
+		recall score: 0.47490174059517126
+		F1 score: 0.5638290780614625
+----------------------------------------------
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.001
+		tol: 0.001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.6622494053686714
+		test score: 0.6451995258790991
+		precision score: 0.682610514572584
+		recall score: 0.5496911847276811
+		F1 score: 0.608982333913909
+----------------------------------------------
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.05
+		tol: 0.001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7314154113338619
+		test score: 0.6810972512276344
+		precision score: 0.7070874157017433
+		recall score: 0.6240314430095452
+		F1 score: 0.6629682653304702
+----------------------------------------------
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.05
+		tol: 0.001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.7435534413108317
+		test score: 0.6795168482248688
+		precision score: 0.705672402804334
+		recall score: 0.6216732172936552
+		F1 score: 0.6610149253731343
+----------------------------------------------
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 30000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.05
+		tol: 0.001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: LinearSVC
+		train score: 0.75799448786197
+		test score: 0.6824518823728623
+		precision score: 0.7107597377554956
+		recall score: 0.6208871420550253
+		F1 score: 0.6627906976744186
+----------------------------------------------
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 30000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.05
+		tol: 0.001
+
+Data size:
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 50000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	linearSVC:
+		penaltiy: l2
+		C: 0.05
+		tol: 0.001
+----------------------------------------------
+----------------------------------------------

@@ -1,0 +1,14 @@
+
+Max scores:
+
+Corresponding hyperparameters:
+
+Max scores:
+train_score: 0.7527466304224714
+test_score: 0.6385956990461139
+precision_score: 0.6654324252843163
+recall_score: 0.5650758001122964
+F1_score: 0.6111617173741422
+
+Corresponding hyperparameters:
+gnb_var_smoothing: 1e-06

@@ -1,0 +1,41 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage[margin=2.54cm,includeheadfoot=True]{geometry}%
+\usepackage{longtable}%
+%
+%
+%
+\begin{document}%
+\normalsize%
+\begin{longtable}{l l l}%
+\hline%
+var\_smoothing&training accuracy&valid accuracy\\%
+\hline%
+\endhead%
+\hline%
+1&0.4986&0.499\\%
+0.1&0.4987&0.4991\\%
+0.01&0.5102&0.5092\\%
+0.001&0.7073&0.6709\\%
+0.0001&0.7382&0.6642\\%
+1e{-}05&0.7361&0.6463\\%
+1e{-}06&0.7314&0.641\\%
+1e{-}07&0.7305&0.6389\\%
+1e{-}08&0.7291&0.6378\\%
+1e{-}09&0.7281&0.638\\%
+\hline%
+\end{longtable}%
+\begin{longtable}{l l l l l l l}%
+\hline%
+var\_smoothing&training accuracy&valid accuracy&test accuracy&test precision&test recall&test F1\\%
+\hline%
+\endhead%
+\hline%
+0.001&0.7073&0.6709&0.6668&0.6856&0.6242&0.6535\\%
+\hline%
+\end{longtable}%
+\end{document}

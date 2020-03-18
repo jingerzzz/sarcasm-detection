@@ -1,0 +1,168 @@
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	GaussianNB:
+		var_smoothing: 1e-09
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: GaussianNB
+		train score: 0.7483671234945445
+		test score: 0.6219450245526895
+		precision score: 0.6404122661916274
+		recall score: 0.5651880965749579
+		F1 score: 0.6004533524218564
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	GaussianNB:
+		var_smoothing: 1e-08
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: GaussianNB
+		train score: 0.7492354740061162
+		test score: 0.6222836823389964
+		precision score: 0.6387112949730475
+		recall score: 0.5721504772599663
+		F1 score: 0.6036014690202582
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	GaussianNB:
+		var_smoothing: 1.0000000000000001e-07
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: GaussianNB
+		train score: 0.7504247366632688
+		test score: 0.6227916690184568
+		precision score: 0.6366879921259843
+		recall score: 0.5811341942728804
+		F1 score: 0.6076439852051899
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	GaussianNB:
+		var_smoothing: 1.0000000000000002e-06
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: GaussianNB
+		train score: 0.7507645259938838
+		test score: 0.6223965682677655
+		precision score: 0.6338368580060423
+		recall score: 0.5889949466591803
+		F1 score: 0.6105937136204889
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	GaussianNB:
+		var_smoothing: 1e-09
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: GaussianNB
+		train score: 0.7115377354928833
+		test score: 0.6394423435118812
+		precision score: 0.6795036371416345
+		recall score: 0.5349803481190343
+		F1 score: 0.5986428750942447
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	GaussianNB:
+		var_smoothing: 1e-08
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: GaussianNB
+		train score: 0.7128402612602409
+		test score: 0.6393859005474968
+		precision score: 0.6760425412818359
+		recall score: 0.5425042111173498
+		F1 score: 0.6019562644072021
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	GaussianNB:
+		var_smoothing: 1.0000000000000001e-07
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model: GaussianNB
+		train score: 0.7138218748820176
+		test score: 0.6392730146187278
+		precision score: 0.6727122835943941
+		recall score: 0.5498034811903425
+		F1 score: 0.6050794043131682
+----------------------------------------------

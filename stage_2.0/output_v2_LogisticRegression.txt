@@ -1,0 +1,972 @@
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l2
+		C: 1.0
+		tol: 0.0001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.7149733831691019
+		test score: 0.6628661737314444
+		precision score: 0.685007571933367
+		recall score: 0.6095451993262212
+		F1 score: 0.6450769505021096
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l2
+		C: 0.6
+		tol: 0.0001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.7041190017744554
+		test score: 0.6580685217587627
+		precision score: 0.6814069070982541
+		recall score: 0.6004491858506457
+		F1 score: 0.6383715377268385
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l2
+		C: 0.19999999999999996
+		tol: 0.0001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.6846566240042284
+		test score: 0.6491505333860135
+		precision score: 0.6738202973497092
+		recall score: 0.5852891633913532
+		F1 score: 0.6264423076923078
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l2
+		C: 1.0
+		tol: 0.0006000000000000001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.7149733831691019
+		test score: 0.6628661737314444
+		precision score: 0.685007571933367
+		recall score: 0.6095451993262212
+		F1 score: 0.6450769505021096
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l2
+		C: 0.6
+		tol: 0.0006000000000000001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.7041378789594895
+		test score: 0.6580685217587627
+		precision score: 0.6814069070982541
+		recall score: 0.6004491858506457
+		F1 score: 0.6383715377268385
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l2
+		C: 0.19999999999999996
+		tol: 0.0006000000000000001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.6846566240042284
+		test score: 0.6491505333860135
+		precision score: 0.6738202973497092
+		recall score: 0.5852891633913532
+		F1 score: 0.6264423076923078
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l2
+		C: 1.0
+		tol: 0.0011
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.7150111375391701
+		test score: 0.6629226166958289
+		precision score: 0.6850473186119874
+		recall score: 0.6096574957888826
+		F1 score: 0.6451574569221628
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l2
+		C: 0.6
+		tol: 0.0011
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.7041378789594895
+		test score: 0.6580685217587627
+		precision score: 0.6814069070982541
+		recall score: 0.6004491858506457
+		F1 score: 0.6383715377268385
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l2
+		C: 0.19999999999999996
+		tol: 0.0011
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.6846377468191943
+		test score: 0.6491505333860135
+		precision score: 0.6738202973497092
+		recall score: 0.5852891633913532
+		F1 score: 0.6264423076923078
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l1
+		C: 1.0
+		tol: 0.0001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.6740854003850946
+		test score: 0.6509002652819326
+		precision score: 0.6963615362402541
+		recall score: 0.5416058394160584
+		F1 score: 0.6093108458088561
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l1
+		C: 0.6
+		tol: 0.0001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.6519235851549817
+		test score: 0.637805497544731
+		precision score: 0.6889428918590522
+		recall score: 0.5093767546322291
+		F1 score: 0.5857059848925044
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l1
+		C: 0.19999999999999996
+		tol: 0.0001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.6061275342620909
+		test score: 0.60309307444827
+		precision score: 0.6876377479463034
+		recall score: 0.3854014598540146
+		F1 score: 0.4939550949913645
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l1
+		C: 1.0
+		tol: 0.0006000000000000001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.6740854003850946
+		test score: 0.6509002652819326
+		precision score: 0.6963615362402541
+		recall score: 0.5416058394160584
+		F1 score: 0.6093108458088561
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l1
+		C: 0.6
+		tol: 0.0006000000000000001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.65196133952505
+		test score: 0.637805497544731
+		precision score: 0.6889428918590522
+		recall score: 0.5093767546322291
+		F1 score: 0.5857059848925044
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l1
+		C: 0.19999999999999996
+		tol: 0.0006000000000000001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.6061652886321591
+		test score: 0.6030366314838855
+		precision score: 0.6875751503006012
+		recall score: 0.38528916339135316
+		F1 score: 0.49384670744872255
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l1
+		C: 1.0
+		tol: 0.0011
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.6740665232000604
+		test score: 0.6509002652819326
+		precision score: 0.6963615362402541
+		recall score: 0.5416058394160584
+		F1 score: 0.6093108458088561
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l1
+		C: 0.6
+		tol: 0.0011
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.6519802167100842
+		test score: 0.6378619405091155
+		precision score: 0.6889901290812452
+		recall score: 0.5094890510948905
+		F1 score: 0.5857972885732731
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	LogisticRegression:
+		penaltiy: l1
+		C: 0.19999999999999996
+		tol: 0.0011
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.6060520255219541
+		test score: 0.60309307444827
+		precision score: 0.6876377479463034
+		recall score: 0.3854014598540146
+		F1 score: 0.4939550949913645
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l2
+		C: 1.0
+		tol: 0.0001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.745837580699966
+		test score: 0.6803634926906361
+		precision score: 0.7027263631815908
+		recall score: 0.6309938236945536
+		F1 score: 0.6649310691675049
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l2
+		C: 0.6
+		tol: 0.0001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.736946426548873
+		test score: 0.683467855731783
+		precision score: 0.70838073568449
+		recall score: 0.6293093767546323
+		F1 score: 0.6665080875356804
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l2
+		C: 0.19999999999999996
+		tol: 0.0001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.7138785064371201
+		test score: 0.6759044985042615
+		precision score: 0.7031470777135517
+		recall score: 0.6147108366086468
+		F1 score: 0.6559616536848412
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l2
+		C: 1.0
+		tol: 0.0006000000000000001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.745837580699966
+		test score: 0.6803634926906361
+		precision score: 0.7027263631815908
+		recall score: 0.6309938236945536
+		F1 score: 0.6649310691675049
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l2
+		C: 0.6
+		tol: 0.0006000000000000001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.736946426548873
+		test score: 0.683467855731783
+		precision score: 0.70838073568449
+		recall score: 0.6293093767546323
+		F1 score: 0.6665080875356804
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l2
+		C: 0.19999999999999996
+		tol: 0.0006000000000000001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.7138973836221543
+		test score: 0.6759044985042615
+		precision score: 0.7031470777135517
+		recall score: 0.6147108366086468
+		F1 score: 0.6559616536848412
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l2
+		C: 1.0
+		tol: 0.0011
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.745837580699966
+		test score: 0.6803634926906361
+		precision score: 0.7027263631815908
+		recall score: 0.6309938236945536
+		F1 score: 0.6649310691675049
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l2
+		C: 0.6
+		tol: 0.0011
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.736946426548873
+		test score: 0.683467855731783
+		precision score: 0.70838073568449
+		recall score: 0.6293093767546323
+		F1 score: 0.6665080875356804
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l2
+		C: 0.19999999999999996
+		tol: 0.0011
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.7138973836221543
+		test score: 0.6759044985042615
+		precision score: 0.7031470777135517
+		recall score: 0.6147108366086468
+		F1 score: 0.6559616536848412
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l1
+		C: 1.0
+		tol: 0.0001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.7294899384603768
+		test score: 0.6788959756166394
+		precision score: 0.7099216710182767
+		recall score: 0.6106681639528355
+		F1 score: 0.656565046785391
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l1
+		C: 0.6
+		tol: 0.0001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.706214369313248
+		test score: 0.6724614776768076
+		precision score: 0.7093682505399568
+		recall score: 0.5901179112857945
+		F1 score: 0.6442714399558633
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l1
+		C: 0.19999999999999996
+		tol: 0.0001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.6584362139917695
+		test score: 0.6467234859174804
+		precision score: 0.6935908691834943
+		recall score: 0.5322852330151601
+		F1 score: 0.6023254336361904
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l1
+		C: 1.0
+		tol: 0.0006000000000000001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.7294710612753427
+		test score: 0.6788395326522549
+		precision score: 0.7098290040464691
+		recall score: 0.6106681639528355
+		F1 score: 0.656525413497525
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l1
+		C: 0.6
+		tol: 0.0006000000000000001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.7062521236833164
+		test score: 0.6724614776768076
+		precision score: 0.7094247907102349
+		recall score: 0.5900056148231331
+		F1 score: 0.6442278217154068
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l1
+		C: 0.19999999999999996
+		tol: 0.0006000000000000001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.6584739683618379
+		test score: 0.6467234859174804
+		precision score: 0.6935908691834943
+		recall score: 0.5322852330151601
+		F1 score: 0.6023254336361904
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l1
+		C: 1.0
+		tol: 0.0011
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.7295088156454109
+		test score: 0.6787830896878704
+		precision score: 0.7097363612633777
+		recall score: 0.6106681639528355
+		F1 score: 0.6564857849942658
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l1
+		C: 0.6
+		tol: 0.0011
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.7063087552384189
+		test score: 0.67274369249873
+		precision score: 0.7095077545515847
+		recall score: 0.590791690061763
+		F1 score: 0.6447303921568627
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 8000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l2
+	LogisticRegression:
+		penaltiy: l1
+		C: 0.19999999999999996
+		tol: 0.0011
+
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:LogisticRegression:
+		train score: 0.658492845546872
+		test score: 0.6467234859174804
+		precision score: 0.6935908691834943
+		recall score: 0.5322852330151601
+		F1 score: 0.6023254336361904
+----------------------------------------------

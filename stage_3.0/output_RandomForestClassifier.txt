@@ -1,0 +1,275 @@
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		rfc_n_estimators: warn
+		rfc_oob_score: False
+		rfc_max_depth: 10
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.6127723033941179
+		test_score: 0.595134616470057
+		precision_score: 0.6758018676410881
+		recall_score: 0.37383492419988773
+		F1_score: 0.48138240185091463
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		rfc_n_estimators: warn
+		rfc_oob_score: False
+		rfc_max_depth: 20
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.6573224600747537
+		test_score: 0.6214934808376136
+		precision_score: 0.6995825013614086
+		recall_score: 0.4327905670971364
+		F1_score: 0.5347578742888858
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		rfc_n_estimators: warn
+		rfc_oob_score: False
+		rfc_max_depth: 30
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.6877713595348661
+		test_score: 0.6260653609527572
+		precision_score: 0.6749539594843462
+		recall_score: 0.4938798427849523
+		F1_score: 0.570391025225342
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		rfc_n_estimators: warn
+		rfc_oob_score: False
+		rfc_max_depth: 40
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.7192585041718579
+		test_score: 0.6313709996048993
+		precision_score: 0.6837461300309597
+		recall_score: 0.4960134755755194
+		F1_score: 0.5749430523917995
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		rfc_n_estimators: warn
+		rfc_oob_score: False
+		rfc_max_depth: 50
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.7490655793408088
+		test_score: 0.6337980470734323
+		precision_score: 0.673063153372476
+		recall_score: 0.527793374508703
+		F1_score: 0.5916414904330312
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		rfc_n_estimators: warn
+		rfc_oob_score: False
+		rfc_max_depth: 60
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.7668101332729264
+		test_score: 0.6331207315008184
+		precision_score: 0.675932699341624
+		recall_score: 0.5188096574957889
+		F1_score: 0.5870393900889453
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		rfc_n_estimators: warn
+		rfc_oob_score: False
+		rfc_max_depth: 70
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.7877260542907841
+		test_score: 0.6414742902297229
+		precision_score: 0.6833261525204654
+		recall_score: 0.5343065693430656
+		F1_score: 0.599697504411394
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		rfc_n_estimators: warn
+		rfc_oob_score: False
+		rfc_max_depth: 80
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.7969758749575263
+		test_score: 0.6366201952926568
+		precision_score: 0.6760885082084226
+		recall_score: 0.5318360471645143
+		F1_score: 0.5953488372093023
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		rfc_n_estimators: warn
+		rfc_oob_score: False
+		rfc_max_depth: 90
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.8104730622569563
+		test_score: 0.6397245583338037
+		precision_score: 0.6790684464640727
+		recall_score: 0.53700168444694
+		F1_score: 0.5997366275788549
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		rfc_n_estimators: warn
+		rfc_oob_score: False
+		rfc_max_depth: 100
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.8342205610299392
+		test_score: 0.643224022125642
+		precision_score: 0.6732832618025751
+		recall_score: 0.5637282425603594
+		F1_score: 0.6136544221013386
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		rfc_n_estimators: warn
+		rfc_oob_score: False
+		rfc_max_depth: 110
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.8504738173443576
+		test_score: 0.643336908054411
+		precision_score: 0.6715764331210191
+		recall_score: 0.5683323975294778
+		F1_score: 0.615655981996229
+----------------------------------------------

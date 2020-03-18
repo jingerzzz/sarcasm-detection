@@ -1,0 +1,6 @@
+Dataset size:19999
+features shape:(19999, 5000)
+x_train size:18999
+x_test size:1000
+train score: 0.7907784620243171
+test score: 0.634

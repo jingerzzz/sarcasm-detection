@@ -1,0 +1,16 @@
+
+Max scores:
+
+Corresponding hyperparameters:
+
+Max scores:
+train_score: 0.9826141125835316
+test_score: 0.6726308065699611
+precision_score: 0.6920222634508348
+recall_score: 0.6282987085906794
+F1_score: 0.6586227192466156
+
+Corresponding hyperparameters:
+rfc_n_estimators: 50
+rfc_oob_score: True
+rfc_max_depth: 50

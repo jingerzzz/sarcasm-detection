@@ -1,0 +1,9 @@
+Dataset size:29999
+ngram_range:(1,2)
+features shape:(29999, 5497)
+
+Accuracy
+LinearSVC  0.6227213604033711
+LogisticRegression  0.6400551051293084
+MultinomialNB  0.6352217272552332
+RandomForestClassifier  0.5333843033254899

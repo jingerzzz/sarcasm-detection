@@ -1,0 +1,16 @@
+Dataset size:15000
+x_train size:14250
+x_test size:750
+
+Model: LinearSVC
+train score: 0.8225263157894737
+test score: 0.6226666666666667
+Model: GaussianNB
+train score: 0.731859649122807
+test score: 0.5853333333333334
+Model: LogisticRegression
+train score: 0.7688421052631579
+test score: 0.6333333333333333
+Model: RandomForestClassifier
+train score: 0.9631578947368421
+test score: 0.6546666666666666

@@ -1,0 +1,675 @@
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l2
+		lr_tol: 0.0001
+		lr_c: 1.0
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.7658096424661155
+		test_score: 0.6803070497262517
+		precision_score: 0.7009797841994295
+		recall_score: 0.6346996069623807
+		F1_score: 0.6661951909476661
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l2
+		lr_tol: 0.0001
+		lr_c: 10.0
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.8109449918828104
+		test_score: 0.6676073827397415
+		precision_score: 0.6801672640382318
+		recall_score: 0.6393037619314992
+		F1_score: 0.6591027496382056
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l2
+		lr_tol: 0.0001
+		lr_c: 5.0
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.8009967153698041
+		test_score: 0.6720099339617317
+		precision_score: 0.6862060664419837
+		recall_score: 0.6402021336327905
+		F1_score: 0.6624063208040434
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l2
+		lr_tol: 0.0001
+		lr_c: 1.0
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.7658096424661155
+		test_score: 0.6803070497262517
+		precision_score: 0.7009797841994295
+		recall_score: 0.6346996069623807
+		F1_score: 0.6661951909476661
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l2
+		lr_tol: 0.0001
+		lr_c: 0.5
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.7474987729829727
+		test_score: 0.680589264548174
+		precision_score: 0.7045626417948072
+		recall_score: 0.6277372262773723
+		F1_score: 0.6639349129995844
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l2
+		lr_tol: 0.0001
+		lr_c: 0.1
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.7058557027975988
+		test_score: 0.6683411412767398
+		precision_score: 0.7001453680454606
+		recall_score: 0.5949466591802358
+		F1_score: 0.6432734337056825
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l2
+		lr_tol: 0.0001
+		lr_c: 0.05
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.6909238494355722
+		test_score: 0.6598182536546819
+		precision_score: 0.6937786156746566
+		recall_score: 0.5785513756316676
+		F1_score: 0.6309472781825975
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l2
+		lr_tol: 0.0001
+		lr_c: 0.01
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.6655906671197191
+		test_score: 0.6458203984873285
+		precision_score: 0.685472496473907
+		recall_score: 0.5457608085345311
+		F1_score: 0.6076899030947172
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l2
+		lr_tol: 0.0001
+		lr_c: 0.005
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.6600974062747763
+		test_score: 0.6421516058023368
+		precision_score: 0.6863286357692866
+		recall_score: 0.5304884896125772
+		F1_score: 0.5984291867240942
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l2
+		lr_tol: 0.0001
+		lr_c: 0.001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.6438441499603579
+		test_score: 0.6283795224925213
+		precision_score: 0.711499908875524
+		recall_score: 0.43840539023020775
+		F1_score: 0.5425236242356865
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l2
+		lr_tol: 0.0001
+		lr_c: 0.0005
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.6244761581153019
+		test_score: 0.6106564316757916
+		precision_score: 0.7392133492252682
+		recall_score: 0.34823133071308254
+		F1_score: 0.47343511450381687
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l2
+		lr_tol: 0.0001
+		lr_c: 0.0001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.5471174538452825
+		test_score: 0.541626686233561
+		precision_score: 0.8589743589743589
+		recall_score: 0.10533408197641775
+		F1_score: 0.1876562968890667
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l2
+		lr_tol: 0.0001
+		lr_c: 5e-05
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.5240117793634613
+		test_score: 0.5195574871592256
+		precision_score: 0.8922155688622755
+		recall_score: 0.050196518809657496
+		F1_score: 0.09504571550074421
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l2
+		lr_tol: 0.0001
+		lr_c: 1e-05
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.5093630837769472
+		test_score: 0.5057854038494102
+		precision_score: 0.8983957219251337
+		recall_score: 0.018865805727119597
+		F1_score: 0.03695556533216014
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l1
+		lr_tol: 0.0001
+		lr_c: 10.0
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.8232151621550194
+		test_score: 0.6514646949257775
+		precision_score: 0.6612712665406427
+		recall_score: 0.6285233015160022
+		F1_score: 0.6444815475847775
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l1
+		lr_tol: 0.0001
+		lr_c: 5.0
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.8101143957413071
+		test_score: 0.6621888581588306
+		precision_score: 0.6751859851211903
+		recall_score: 0.6318921953958451
+		F1_score: 0.652822089448344
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l1
+		lr_tol: 0.0001
+		lr_c: 1.0
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.7316608147393061
+		test_score: 0.6766382570412598
+		precision_score: 0.7079078292746792
+		recall_score: 0.6071869736103312
+		F1_score: 0.6536903826391828
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l1
+		lr_tol: 0.0001
+		lr_c: 0.5
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.693151357269604
+		test_score: 0.6658012078794379
+		precision_score: 0.7056229327453142
+		recall_score: 0.574957888826502
+		F1_score: 0.6336241569209826
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l1
+		lr_tol: 0.0001
+		lr_c: 0.1
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.6284592441575112
+		test_score: 0.6252751594513744
+		precision_score: 0.6876449155349453
+		recall_score: 0.46625491297024146
+		F1_score: 0.5557117044770128
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l1
+		lr_tol: 0.0001
+		lr_c: 0.05
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.6016158870389248
+		test_score: 0.6002709262290455
+		precision_score: 0.6839556004036327
+		recall_score: 0.38057271195957326
+		F1_score: 0.48903318903318904
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l1
+		lr_tol: 0.0001
+		lr_c: 0.01
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.5438894552044399
+		test_score: 0.543715075915787
+		precision_score: 0.7653522947640594
+		recall_score: 0.13295901179112857
+		F1_score: 0.22655951014159967
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l1
+		lr_tol: 0.0001
+		lr_c: 0.005
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.5010948767319817
+		test_score: 0.49737540215612125
+		precision_score: nan
+		recall_score: 0.0
+		F1_score: nan
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l1
+		lr_tol: 0.0001
+		lr_c: 0.001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.5010948767319817
+		test_score: 0.49737540215612125
+		precision_score: nan
+		recall_score: 0.0
+		F1_score: nan
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l1
+		lr_tol: 0.0001
+		lr_c: 0.0005
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.5010948767319817
+		test_score: 0.49737540215612125
+		precision_score: nan
+		recall_score: 0.0
+		F1_score: nan
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l1
+		lr_tol: 0.0001
+		lr_c: 0.0001
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.5010948767319817
+		test_score: 0.49737540215612125
+		precision_score: nan
+		recall_score: 0.0
+		F1_score: nan
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l1
+		lr_tol: 0.0001
+		lr_c: 5e-05
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.5010948767319817
+		test_score: 0.49737540215612125
+		precision_score: nan
+		recall_score: 0.0
+		F1_score: nan
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_range: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+	Model:linearSVC:
+		lr_penalty: l1
+		lr_tol: 0.0001
+		lr_c: 1e-05
+
+Data size:
+	total size: 70691
+	train size: 52974
+	test size: 17717
+
+Results:
+		train_score: 0.5010948767319817
+		test_score: 0.49737540215612125
+		precision_score: nan
+		recall_score: 0.0
+		F1_score: nan
+----------------------------------------------

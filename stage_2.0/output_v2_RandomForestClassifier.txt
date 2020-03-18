@@ -1,0 +1,52 @@
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+
+
+	RandomForestClassifier:
+		n_estimators: 10
+		oob_score: True 
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+Results:
+	Model: RandomForestClassifier
+		train score: 0.9672103295956507		
+		test score: 0.6453688547722526
+		precision score: 0.6780766096169519
+		recall score: 0.5605839416058395
+		F1 score: 0.6137579147968281
+----------------------------------------------
+----------------------------------------------
+Parameters:
+	Feature Extraction(tfidf):
+		max_features: 15000
+		ngram_rang: (1, 3)
+		stop_words: None
+		max_df: 1.0
+		min_df: 1
+		norm: l1
+	RandomForestClassifier
+		n_estimators: 30
+		oob_score: True
+		max_depth: 10
+Data size:
+	total size: 70691
+	train size: 52974
+	xtest size: 17717
+
+Results:
+	Model:RandomForestClassifier:
+		train score: 0.9818212708120965
+		test score: 0.6604391262629113
+		precision score: 0.6821334005800025
+		recall score: 0.6075238629983155
+		F1 score: 0.6426704680446662
+----------------------------------------------

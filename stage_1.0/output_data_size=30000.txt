@@ -1,0 +1,11 @@
+Dataset size:30000
+ngram_range:(1,2)
+features shape:(30000, 5497)
+x_train size:22500
+x_test size:7500
+
+Accuracy
+LinearSVC  0.6229335291018573
+LogisticRegression  0.6400001737518567
+MultinomialNB  0.6352334847740783
+RandomForestClassifier  0.5312332614537018

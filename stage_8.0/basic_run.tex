@@ -1,0 +1,25 @@
+\documentclass{article}%
+\usepackage[T1]{fontenc}%
+\usepackage[utf8]{inputenc}%
+\usepackage{lmodern}%
+\usepackage{textcomp}%
+\usepackage{lastpage}%
+\usepackage[margin=2.54cm,includeheadfoot=True]{geometry}%
+\usepackage{longtable}%
+%
+%
+%
+\begin{document}%
+\normalsize%
+\begin{longtable}{l l l l l l l}%
+\hline%
+Model Name&train accuracy&validation accuracy&test accuracy&test precision&test recall&test F1\\%
+\hline%
+\endhead%
+\hline%
+LinearSVC&0.8926&0.6326&0.6416&0.6526&0.6155&0.6335\\%
+LogisticRegression&0.8266&0.6599&0.6604&0.6752&0.6270&0.6502\\%
+GaussianNB&0.7268&0.5232&0.5276&0.5183&0.8668&0.6487\\%
+RandomForest&0.9952&0.6640&0.6670&0.6894&0.6159&0.6505\\%
+\end{longtable}%
+\end{document}

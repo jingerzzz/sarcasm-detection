@@ -1,0 +1,5 @@
+Dataset size:4999
+ngram_range:(1,2)
+features shape:(4999, 5000)
+x_train size:3749
+x_test size:1250
